@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Gang of Three';
+    src: url('go3v2.ttf') format('truetype');
+  }
+
+header{
+  background-color: red;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+
+img.a {
+  vertical-align: baseline;
+}
