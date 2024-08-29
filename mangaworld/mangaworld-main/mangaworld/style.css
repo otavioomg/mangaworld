@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Gang of Three';
+    src: url('go3v2.ttf') format('truetype');
+  }
+
+header{
+  background-color: red;
+}
+
+* {
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:12px;
+}
+
+ul {
+  background-color: #f00;
+  margin: 10px;
+  padding: 10px;
+}
+
+li {
+  list-style: none; 
+  margin: 10px;
+  display: inline;
+}
+li a {
+  padding: 10px 10px; 
+  margin:0;
+  border: 0px solid #f00; 
+  background: rgb(255, 0, 0);
+  text-decoration: none;
+  color:#FFF;
+  /* cantos arredondados */
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  font-size: 30px;
+}
+li a:hover {
+  background: #CCC;
+  color: #000; 
+  border-color: #000;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 100px;
+}
+
+img.a {
+  vertical-align: baseline;
+}
+
+/* Barra de Navegação */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav input[type=text] {
+  float: left;
+  padding: 8px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
